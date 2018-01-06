@@ -1,0 +1,11 @@
+[Users|first_name|last_name|address|city|state|zip|phone|email|admin]
+[Games|active:boolean|winner|start_time|end_time]
+[GameUsers|game|user|color|gold]
+[Units|alive:boolean|type]
+[Tiles|type]
+[Fields]
+
+[Users]->[GameUsers]
+[Games]->[GameUsers]
+[Units]<-[Users]
+[Fields]->[Tiles]
