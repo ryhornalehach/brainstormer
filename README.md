@@ -1,3 +1,7 @@
+[ ![Codeship Status for ryhornalehach/brainstormer](https://app.codeship.com/projects/0cf459b0-d572-0135-e8d1-2aadb9628cc1/status?branch=master)](https://app.codeship.com/projects/263121)
+[![Maintainability](https://api.codeclimate.com/v1/badges/39d234c70c35c66b0ce6/maintainability)](https://codeclimate.com/github/ryhornalehach/brainstormer/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/39d234c70c35c66b0ce6/test_coverage)](https://codeclimate.com/github/ryhornalehach/brainstormer/test_coverage)
+[![Coverage Status](https://coveralls.io/repos/github/ryhornalehach/brainstormer/badge.svg?branch=master)](https://coveralls.io/github/ryhornalehach/brainstormer?branch=master)
 
 
 # Developed by: Ryhor (Greg) Nalehach
