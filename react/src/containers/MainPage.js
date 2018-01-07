@@ -12,8 +12,11 @@ class MainPage extends Component {
   render() {
 
     return (
-      <div className='row'>
-          Hi there
+      <div className='row column'>
+        <div className='center-oval'>
+          <h3>Welcome to</h3>
+          <h1>Brainstormer</h1>
+        </div>
       </div>
     )
   }

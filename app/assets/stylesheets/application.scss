@@ -3,12 +3,16 @@
 
 //// custom styling goes next
 
+body {
+  font-family: 'Englebert', sans-serif;
+}
+
 .navbar-color {
-  background: #78909C;
+  background: #F85931;
 }
 
 .navbar-color-dark {
-  background: #607D8B;
+  background: #CE1836;
 }
 
 .invisible {
@@ -27,11 +31,6 @@
   color: #9c0900;
 }
 
-// .navbar-fixed {
-//   position: absolute;
-//   z-index: 999999999;
-// }
-
 .callout {
   position: relative;
   display: flex;
@@ -44,18 +43,38 @@
   z-index: 10;
 }
 
-div.blackfield-right-bottom {
+div.oval-right-bottom {
   color: white;
-  background-color: black;
-  opacity: 0.5;
+  background-color: #F85931;
+  opacity: 0.85;
   width: auto;
   padding: 15px;
   position: fixed;
-  bottom: 60px;
+  bottom: 30px;
   right: 20px;
+  border-radius: 100px/25px;
 }
 
-div.blackfield-right-bottom a {
+div.center-oval {
+  color: white;
+  text-align: center;
+  background-color: #F85931;
+  width: 600px;
+  height: 260px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -160px 0 0 -300px;
+  border-radius: 400px/100px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.center-oval h1 {
+  font-size: 650%;
+}
+
+div.oval-right-bottom a {
   color: white;
 }
 
