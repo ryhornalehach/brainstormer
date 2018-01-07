@@ -13,7 +13,7 @@ class MainPage extends Component {
 
     return (
       <div className='row column'>
-        <div className='center-oval'>
+        <div className='center-oval waves-effect waves-light'>
           <h3>Welcome to</h3>
           <h1>Brainstormer</h1>
         </div>

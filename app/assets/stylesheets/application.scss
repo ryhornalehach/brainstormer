@@ -12,36 +12,28 @@ body {
 }
 
 .navbar-color-dark {
-  background: #CE1836;
+  background: #F85931;
 }
 
 .invisible {
   visibility: hidden;
 }
 
-.notice {
-  color: #018312;
-}
-
 .no-margin {
   margin: auto;
 }
 
-.error {
-  color: #9c0900;
-}
-
-.callout {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  text-align: center;
-  position: relative;
-  z-index: 10;
-}
+// .callout {
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+//   height: 100%;
+//   text-align: center;
+//   position: relative;
+//   z-index: 10;
+// }
 
 div.oval-right-bottom {
   color: white;
@@ -53,6 +45,18 @@ div.oval-right-bottom {
   bottom: 30px;
   right: 20px;
   border-radius: 100px/25px;
+}
+
+div.oval-menu {
+  color: white;
+  background-color: #F85931;
+  width: 100px;
+  padding: 15px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-radius: 100px/25px;
+  text-align: center;
 }
 
 div.center-oval {
@@ -78,38 +82,31 @@ div.oval-right-bottom a {
   color: white;
 }
 
-.blackfield-main {
-  background-color: black;
-  opacity: 0.7;
-  filter: alpha(opacity=55);
-  width: 90%;
-  padding: 15px;
-  margin: auto;
-  margin-top: 30px;
-  overflow-y: scroll;
-}
-
-div.blackfield-main a {
+div.oval-menu a {
   color: white;
+  font-size: 150%;
 }
 
-div.blackfield-main h1,h2,p {
+.dropdown-content.active[style] {
   color: white;
-  opacity: 1;
-}
-
-.large-140 {
-  font-size: 140%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.large-120 {
-  font-size: 120%;
-  opacity: 1;
-  color: white;
-}
-
-div.blackfield-main h1,h2 {
+  background-color: #F85931;
+  width: 120px !important;
+  position: fixed;
+  padding: 10px;
+  top: 6px !important;
+  left: 6px !important;
+  border-radius: 100px/25px;
   text-align: center;
+}
+
+.input-field input {
+  line-height: 46px;
+}
+
+.waves-button-input {
+  line-height: 150%;
+}
+
+.btn {
+  border-radius: 100px/25px;
 }
